@@ -36,6 +36,6 @@ LOCAL_SRC_FILES := \
 	SamsungSensorBase.cpp \
 	TemperatureSensor.cpp
 
-LOCAL_SHARED_LIBRARIES := libinvensense_hal liblog libcutils libutils libdl
+LOCAL_SHARED_LIBRARIES := liblog libcutils libutils libdl
 
 include $(BUILD_SHARED_LIBRARY)
